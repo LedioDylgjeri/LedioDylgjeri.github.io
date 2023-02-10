@@ -21,8 +21,9 @@
 
 .pg1-header > img {
   height: 3.3rem;
-  width: 4rem;
+  width: 5rem;
   float: left;
+  border-radius: 70%;
 }
 
 .pg1-header > h1 {
