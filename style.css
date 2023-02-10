@@ -12,11 +12,17 @@
 }
 
 .pg1-header {
-  background: rgb(94, 94, 233);
+  background: rgba(94, 94, 233, 0.927);
   text-align: center;
   color: white;
   margin: 0;
   padding: 0;
+}
+
+.pg1-header > img {
+  height: 3.3rem;
+  width: 4rem;
+  float: left;
 }
 
 .pg1-header > h1 {
