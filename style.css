@@ -182,4 +182,6 @@ td {
 .fa-solid:hover {
   color: blue;
   cursor: pointer;
+  font-size: 20px;
+  transition: ease-in-out .6s;
 }
