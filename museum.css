@@ -1,0 +1,43 @@
+body {
+  height: 100%;
+  background: -webkit-linear-gradient(159deg, rgb(217, 217, 214) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+}
+
+h1 {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.413);
+  width: 40%;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  color: rgb(98, 11, 119);
+}
+
+span {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#efecf1, #b03805);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.museum-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: .5em;
+  background: rgba(255, 255, 255, 0.358);
+  padding: 10px;
+}
+
+.museum-container > div > img {
+  height: 80%;
+  width: 100%;
+}
+
+.museum-container > div > a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
