@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-  background: rgba(150, 22, 224, 0.718);
+  background: rgba(174, 75, 232, 0.718);
   color: rgb(47, 172, 222);
   font-size: 20px;
   transition: ease-in-out .4s;
